@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [ $# -ne 2 ]; then # 引数の数が2でない場合(not equal)
- echo "input 2  argments" # エラーメッセージ
+ echo "input 2 argments" # エラーメッセージ
  exit 1 # 終了ステータス 
 fi
 expr $1 + $2 > /dev/null 2>&1 # exprに数字以外を渡すと終了ステータスが2以上になる
