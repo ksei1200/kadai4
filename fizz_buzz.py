@@ -1,13 +1,12 @@
 def fb(n):
  if n % 15 == 0:
-  print("FizzBuzz")
+  return"FizzBuzz"
  elif n % 5 == 0:
-  print("Buzz")
+  return"Buzz"
  elif n % 3 == 0:
-  print("Fizz")
+  return"Fizz"
  else:
-  print("")
- return
+  return""
 
 i = 1
 while i <= 20:
